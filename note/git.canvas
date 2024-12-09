@@ -1,0 +1,27 @@
+{
+	"nodes":[
+		{"id":"bf45e87ccc929912","x":-374,"y":94,"width":159,"height":89,"type":"text","text":"git commit -m\"comment\""},
+		{"id":"f4f91fbc1eab5bdf","x":-118,"y":-115,"width":172,"height":68,"color":"1","type":"text","text":"   GIT commands"},
+		{"id":"a98c2b8bea7085f1","x":-346,"y":-17,"width":99,"height":58,"type":"text","text":"git init "},
+		{"id":"ddf1b9c3ffda2c85","x":-32,"y":-340,"width":194,"height":146,"type":"text","text":"to upload a file chek the commands on ur repository"},
+		{"id":"e50ef907452c1c79","x":137,"y":-190,"width":201,"height":128,"type":"text","text":"git config --global core.pager smthg : u wont need it"},
+		{"id":"f723cb537e55278d","x":162,"y":-53,"width":152,"height":73,"type":"text","text":"touch : make file "},
+		{"id":"171eab77673b3342","x":75,"y":41,"width":163,"height":53,"type":"text","text":"git rm : delete something"},
+		{"id":"a39b0813672241bc","x":-215,"y":-316,"width":130,"height":99,"type":"text","text":"mkdir : make directory"},
+		{"id":"0df82e0263dbb921","x":-346,"y":-190,"width":154,"height":143,"type":"text","text":"git add . : add the changes u made"},
+		{"id":"8f28b51854eb2d15","x":-192,"y":72,"width":153,"height":134,"type":"text","text":"cd (exp: cd Desktop): change directory"},
+		{"id":"fc8693d7ae28edf1","x":-26,"y":113,"width":203,"height":141,"type":"text","text":"git log : shows u the changes and the comments u made  "}
+	],
+	"edges":[
+		{"id":"1cba3d2f030749cc","fromNode":"f4f91fbc1eab5bdf","fromSide":"bottom","toNode":"8f28b51854eb2d15","toSide":"top"},
+		{"id":"4d19c1a0a5cc8f38","fromNode":"f4f91fbc1eab5bdf","fromSide":"top","toNode":"a39b0813672241bc","toSide":"bottom"},
+		{"id":"fcf4b67e05e2f619","fromNode":"f4f91fbc1eab5bdf","fromSide":"right","toNode":"f723cb537e55278d","toSide":"left"},
+		{"id":"f61a45bb342af036","fromNode":"f4f91fbc1eab5bdf","fromSide":"left","toNode":"a98c2b8bea7085f1","toSide":"right"},
+		{"id":"0cb9eebfa0a516de","fromNode":"f4f91fbc1eab5bdf","fromSide":"left","toNode":"bf45e87ccc929912","toSide":"right"},
+		{"id":"69ad571873d78cbb","fromNode":"f4f91fbc1eab5bdf","fromSide":"bottom","toNode":"fc8693d7ae28edf1","toSide":"top"},
+		{"id":"b0e2e7481660bd30","fromNode":"f4f91fbc1eab5bdf","fromSide":"bottom","toNode":"171eab77673b3342","toSide":"top"},
+		{"id":"d0d5fe3857fe782f","fromNode":"f4f91fbc1eab5bdf","fromSide":"right","toNode":"e50ef907452c1c79","toSide":"left"},
+		{"id":"5536b5a163ef5719","fromNode":"f4f91fbc1eab5bdf","fromSide":"top","toNode":"ddf1b9c3ffda2c85","toSide":"bottom"},
+		{"id":"c15ae893631a4dbe","fromNode":"f4f91fbc1eab5bdf","fromSide":"left","toNode":"0df82e0263dbb921","toSide":"right"}
+	]
+}
